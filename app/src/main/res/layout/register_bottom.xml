@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.account.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+    <Button
+        android:id="@+id/reg_register"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_bt_border_blue"
+        android:text="注册账号"
+        android:textColor="#FFFFFF" />
+    <Button
+        android:id="@+id/reg_tologin"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/login_bt_border_blue"
+        android:text="返回登录页面"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

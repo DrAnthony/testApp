@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".ui.account.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="72dp"
+        android:paddingRight="46dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ic_user" />
+
+        <EditText
+            android:id="@+id/login_tv_user"
+            android:layout_width="205dp"
+            android:layout_height="30dp"
+            android:background="@drawable/login_tv_border_white"
+            android:hint="请输入用户名/手机号"
+            android:textColorHint="#888888"
+            android:textColor="#888888"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="72dp">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="26dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ic_pwd" />
+
+        <EditText
+            android:id="@+id/login_tv_pwd"
+
+            android:layout_width="205dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/login_tv_border_white"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textColor="#888888"
+            android:textColorHint="#888888" />
+
+        <Button
+            android:id="@+id/login_eye"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/ic_open" />
+    </LinearLayout>
+
+</LinearLayout>

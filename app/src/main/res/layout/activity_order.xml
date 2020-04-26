@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    tools:context=".ui.order.OrderActivity">
+
+    <TextView
+        android:id="@+id/tv_lib"
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/list_border"
+        android:drawableRight="@drawable/right"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:text="图书馆"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_floor"
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:background="@drawable/list_border"
+        android:drawableRight="@drawable/right"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:text="楼层"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tv_seat"
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:background="@drawable/list_border"
+        android:drawableRight="@drawable/right"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:text="座位号"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:background="@drawable/list_border"
+        android:drawableRight="@drawable/right"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:text="开始时间"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tv_end"
+        android:layout_width="350dp"
+        android:layout_height="32dp"
+        android:background="@drawable/list_border"
+        android:drawableRight="@drawable/right"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:text="结束时间"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+</LinearLayout>
